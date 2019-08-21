@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="13.539017">
+    <testcase classname="Login" name="Login as wrogUser" time="3.773401">
+        <system-out>
+            <![CDATA[Given user is on the landing page...........................................passed
+Then user logs on with "hello" and "world"..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login" name="Login as wrogUser 2" time="5.045126">
+        <system-out>
+            <![CDATA[Given user is on the landing page...........................................passed
+Then user logs on with "hpschemistry@gmail.com" and "hpschemistry@gmail.com".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login" name="Login as wrogUser 3" time="2.448164">
+        <system-out>
+            <![CDATA[Given user is on the landing page...........................................passed
+Then user logs on with "selenium" and "cucumber"............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login" name="Login as wrogUser 4" time="2.272326">
+        <system-out>
+            <![CDATA[Given user is on the landing page...........................................passed
+Then user logs on with "java" and "python"..................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

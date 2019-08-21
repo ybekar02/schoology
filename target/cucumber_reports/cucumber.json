@@ -1,0 +1,122 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3121207396,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Manage course materials",
+        "description": "",
+        "id": "course-materials;manage-course-materials",
+        "after": [
+          {
+            "result": {
+              "duration": 114606132,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 921612315,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2155603165,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user logs in as a user",
+            "match": {
+              "location": "LoginStepDefinitions.user_logs_in_as_a_user()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1750642291,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user goes to the dashboard and selects the course",
+            "match": {
+              "location": "CoursePageStepDefinitions.user_goes_to_the_dashboard_and_selects_the_course()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3050523497,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user collects the course materials",
+            "match": {
+              "location": "CoursePageStepDefinitions.user_collects_the_course_materials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3656693272,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user clicks on gradebook",
+            "match": {
+              "location": "CoursePageStepDefinitions.user_clicks_on_gradebook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32933023124,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user collects usernames",
+            "match": {
+              "location": "CoursePageStepDefinitions.user_collects_usernames()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Course Materials",
+    "description": "  As a user I manage the course materials",
+    "id": "course-materials",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/CoursePage.feature",
+    "tags": []
+  }
+]

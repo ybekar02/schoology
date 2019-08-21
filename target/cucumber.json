@@ -1,0 +1,318 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2364994425,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Login as wrogUser",
+        "description": "",
+        "id": "login;login-as-wroguser;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 89554669,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 928504266,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 388512336,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user logs on with \"hello\" and \"world\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hello\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"world\"",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_on_with_and(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Schoology"
+          },
+          {
+            "name": "@trials"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1204506188,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Login as wrogUser",
+        "description": "",
+        "id": "login;login-as-wroguser;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 105156204,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 623868913,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3111262495,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user logs on with \"hpschemistry@gmail.com\" and \"hpschemistry@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hpschemistry@gmail.com\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"hpschemistry@gmail.com\"",
+                  "offset": 47
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_on_with_and(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Schoology"
+          },
+          {
+            "name": "@trials"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1282369782,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Login as wrogUser",
+        "description": "",
+        "id": "login;login-as-wroguser;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 94262567,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 651245885,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 420065945,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user logs on with \"selenium\" and \"cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selenium\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"cucumber\"",
+                  "offset": 33
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_on_with_and(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Schoology"
+          },
+          {
+            "name": "@trials"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1157221684,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Login as wrogUser",
+        "description": "",
+        "id": "login;login-as-wroguser;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 83840644,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 668889143,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 362168359,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user logs on with \"java\" and \"python\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"python\"",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_on_with_and(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Schoology"
+          },
+          {
+            "name": "@trials"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As user I want to login",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/LoginPage.feature",
+    "tags": [
+      {
+        "name": "@Schoology",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
